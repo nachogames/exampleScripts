@@ -1,0 +1,5 @@
+#!/bin/bash
+workPath=$WORK/2626-1-1-gmpowertrain-frontend
+code $workPath &
+cd $workPath
+npm run serve &
